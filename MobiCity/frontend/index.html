@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobicity - Denúncias de Irregularidades Urbanas</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Mobicity</h1>
+        <p>Somos uma empresa comprometida em ajudar a comunidade a denunciar irregularidades urbanas para que possamos viver em um ambiente mais seguro e saudável. Utilize o formulário abaixo para enviar sua denúncia.</p>
+    </header>
+
+    <main>
+        <section id="report-form">
+            <h2>Enviar Denúncia</h2>
+            <form id="form">
+                <label for="title">Título:</label>
+                <input type="text" id="title" name="title" required>
+                
+                <label for="description">Descrição:</label>
+                <textarea id="description" name="description" required></textarea>
+                
+                <label for="location">Localização:</label>
+                <input type="text" id="location" name="location" required>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="reports">
+            <h2>Denúncias Recentes</h2>
+            <ul id="reports-list">
+                <li>
+                    <img 
+                </li>
+                <!-- Denúncias serão adicionadas aqui -->
+            </ul>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
