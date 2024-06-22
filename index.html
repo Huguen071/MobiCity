@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="style.css"/>
+  <title>MobiCity</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>MobiCity!</h1>
+      <nav>
+        <ul>
+          <li><a href="#como funciona"></a></li>
+          <li><a href="#formulario"></a></li>
+          <li><a href="#casos recentes"></a></li>
+          <li><a href="#contato"></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+  <section id="hero">
+    <div class="container">
+    <h2>Seja Bem-Vindo ao MobiCity!</h2>
+    <p>Seu site de denuncias de irregularidades e falta de mobilidade urbana.</p>
+    <a href="#formulario" class="btn">Denunciar agora</a>
+  </div>
+  </section>
+
+  <Section id="sobre nos" class="container">
+    <h2>Sobre nós:</h2>
+    <p>Nossa empresa surgiu em 2024 com o obejetivo de ajudar a população a denunciar irregularidades e falta de mobilidade urbana.</p>
+  </Section>
+  <section id="como funciona" class="container">
+    <h2>Como funciona?</h2>
+    <p>Simples! Siga esses passos abaixo.</p><br>
+    <ol>
+      <li><strong>Identifique o Problema:</strong> Verifique a situação de mobilidade urbana que deseja denunciar.</li><br>
+      <li><strong>Envie a denúncia:</strong> Preencha o formulário com as informações necessárias e, se possível, envie fotos ou vídeos.</li><br>
+      <li><strong>Acompanhe o Processo:</strong> Nossa equipe avaliará a denúncia e a encaminhará para as autoridades competentes.</li><br>
+    </ol>
+  </section> 
+  
+  <section id="formulario" class="container">
+    <h2>formulário de Denúncia</h2>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" required>
+
+      <label for="email">E-mail:</label> 
+      <input type="email" id="email" required>
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" required>
+
+      <label for="descricao">Descrição:</label>
+      <select id="descricao" required>
+        <option value="transporte_publico">Transporte Público</option>
+        <option value="infraestrutura">Infraestrutura</option>
+        <option value="acessibilidade">Acessibilidade</option>
+        <option value="seguranca_viaria">Segurança Viária</option>
+        <option value="outros">Outros</option>
+      </select> 
+
+      <label for="localizacao">Localização:</label>
+      <input type="text" id="localizacao" required>
+
+      <label for="anexos">Anexos:</label>
+      <input type="file" id="anexos" required>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <section id="contato" class="container">
+    <h2>Contatos</h2>
+    <p>Se tiver dúvidas ou precisar de mais informações, entre em contato conosco:</p>
+    <p><strong>E-mail:</strong> contato@mobicity.com</p>
+    <p><strong>Telefone:</strong> (71) 1234-5678</p>
+  </section>
+
+  <footer>
+    <div class="container">
+        <p>&copy; 2024 Mobicity - Salvador. Todos os direitos reservados.</p>
+    </div>
+</footer>
+<script src="javascript.js"></script>
+</main>
+</body>
+</html>
