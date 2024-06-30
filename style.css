@@ -1,14 +1,19 @@
+html {
+    font-size: 18px; /* Base size for rem calculations */
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
+    line-height: 1.6;
 }
 
 header {
     background: #007bff;
     color: white;
-    padding: 20px 0;
+    padding: 1rem 0;
 }
 
 header .container {
@@ -21,6 +26,7 @@ header .container {
 
 header h1 {
     margin: 0;
+    font-size: 2rem;
 }
 
 nav ul {
@@ -31,18 +37,20 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 1.125rem;
 }
 
 #hero {
+    background: url('https://aai.ufba.br/sites/aai.ufba.br/files/saltur.png') no-repeat center center/cover;
     color: white;
     text-align: center;
-    padding: 100px 0;
+    padding: 5rem 0;
 }
 
 #hero .container {
@@ -50,16 +58,25 @@ nav ul li a {
     margin: auto;
 }
 
+#hero h2 {
+    font-size: 2.5rem;
+}
+
+#hero p {
+    font-size: 1.375rem;
+}
+
 #hero .btn {
     background: #007bff;
     color: white;
-    padding: 10px 20px;
+    padding: 0.75rem 1.5rem;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
+    font-size: 1.25rem;
 }
 
 section {
-    padding: 60px 0;
+    padding: 3.75rem 0;
 }
 
 .container {
@@ -68,7 +85,8 @@ section {
 }
 
 h2 {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+    font-size: 1.75rem;
 }
 
 form {
@@ -77,27 +95,58 @@ form {
 }
 
 form label {
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
+    font-size: 1.125rem;
 }
 
 form input, form select {
-    margin-bottom: 20px;
-    padding: 10px;
-    font-size: 16px;
+    margin-bottom: 1.25rem;
+    padding: 0.625rem;
+    font-size: 1.125rem;
 }
 
 form button {
-    padding: 10px;
-    font-size: 16px;
+    padding: 0.75rem;
+    font-size: 1.25rem;
     background: #007bff;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
 }
 
 footer {
     background: #333;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 1.25rem 0;
+    font-size: 1.125rem;
+}
+
+img.square-image, img.founder-image {
+    display: block;
+    margin: 1.25rem auto 0; /* Top margin of 1.25rem, automatic left and right margins to center */
+    object-fit: cover;
+    border-radius: 0.625rem;
+    width: 50%;
+    max-width: 50%;
+    height: baixo;
+}
+
+img.founder-image {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 0.625rem 0;
+}
+
+ol {
+    list-style-position: inside;
 }
